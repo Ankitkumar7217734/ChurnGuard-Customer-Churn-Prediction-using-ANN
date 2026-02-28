@@ -14,7 +14,7 @@ A deep learning project that predicts whether a bank customer will churn (leave 
 ├── label_encoder_gender.pkl        # Saved LabelEncoder for Gender
 ├── one_hot_encoder_geography.pkl   # Saved OneHotEncoder for Geography
 ├── scaler.pkl                      # Saved StandardScaler
-├── requirments.txt                 # Python dependencies
+├── requirements.txt                # Python dependencies
 └── logs/
     └── fit/                        # TensorBoard training logs
 ```
@@ -92,7 +92,7 @@ Input Layer  →  Dense(64, activation='relu')
 
 3. **Install dependencies:**
    ```bash
-   pip install -r requirments.txt
+   pip install -r requirements.txt
    ```
 
 ---
@@ -153,12 +153,10 @@ Then open **http://localhost:6006** to visualise training/validation loss and ac
 ## Dependencies
 
 ```
-tensorflow
+tensorflow-cpu
 pandas
 numpy
 scikit-learn
-tensorboard
-matplotlib
 streamlit
 scikeras
 ```
@@ -166,7 +164,7 @@ scikeras
 Install via:
 
 ```bash
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 
 ---
