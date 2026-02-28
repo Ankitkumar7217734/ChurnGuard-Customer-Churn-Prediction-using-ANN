@@ -2,6 +2,8 @@
 
 A deep learning project that predicts whether a bank customer will churn (leave the bank) using an Artificial Neural Network (ANN) built with TensorFlow/Keras. The trained model is served through an interactive **Streamlit** web application.
 
+**Live Demo:** [https://churnguard-customer-churn-prediction-using-ann-34hhjk7cdn7q4cg.streamlit.app/](https://churnguard-customer-churn-prediction-using-ann-34hhjk7cdn7q4cg.streamlit.app/)
+
 ---
 
 ## Project Structure
